@@ -1,0 +1,24 @@
+.company-single {
+  .thumbnail {
+    transform: translateY(-50%);
+  }
+  .company-single-slider {
+    position: unset !important;
+    .custom-button-group {
+      top: -25px;
+      right: 15px;
+      z-index: 1000;
+      .btn {
+        padding: $spacer * 0.25 $spacer !important;
+      }
+    }
+  }
+  .hyoColor {
+    background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
+    border-radius: 30px;
+    border: none;
+  }
+  .hyoColor a {
+    color: #fff;
+  }
+}
