@@ -1,7 +1,0 @@
-$primary: $default;
-
-@import './variant/variables';
-
-body[data-theme='default'] {
-  @import './variant/variant';
-}
