@@ -23,19 +23,16 @@ const menuBoxItems = {
     },
   ],
   pageList: [
- 
-
     {
       id: 2,
       title: 'Vị trí tuyển dụng',
       path: '/company',
     },
 
-
     {
       id: 7,
       title: 'Đăng ký ứng tuyển',
-      path: '/signup',
+      path: '/candidate-page',
     },
   ],
   dashboardPage: [

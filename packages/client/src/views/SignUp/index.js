@@ -38,19 +38,27 @@ const SignUp = () => {
               <h4 className="pb-5">Form Đăng Kí Ứng Tuyển</h4>
               <Row>
                 <Col md={12} lg={6} className="pr-2">
-                  <h6 style={{ textAlign: ' left', fontWeight: 'bold' }}>Họ Và Tên</h6>
+                  <h6 style={{ textAlign: ' left', fontWeight: 'bold' }}>
+                    Họ Và Tên
+                  </h6>
                   <RegistrationItem inputtype="text" icon={faUser} />
                 </Col>
                 <Col md={12} lg={6} className="p-0">
-                  <h6 style={{ textAlign: ' left', fontWeight: 'bold' }}>CMND/CCCD</h6>
+                  <h6 style={{ textAlign: ' left', fontWeight: 'bold' }}>
+                    CMND/CCCD
+                  </h6>
                   <RegistrationItem inputtype="text" icon={faEnvelope} />
                 </Col>
                 <Col md={12} lg={6} className="pr-2">
-                  <h6 style={{ textAlign: ' left', fontWeight: 'bold' }}>Email</h6>
+                  <h6 style={{ textAlign: ' left', fontWeight: 'bold' }}>
+                    Email
+                  </h6>
                   <RegistrationItem inputtype="email" icon={faEnvelope} />
                 </Col>
                 <Col md={12} lg={6} className="p-0 birthDayInput">
-                  <h6 style={{ textAlign: ' left', fontWeight: 'bold' }}>Ngày Sinh</h6>
+                  <h6 style={{ textAlign: ' left', fontWeight: 'bold' }}>
+                    Ngày Sinh
+                  </h6>
                   <RegistrationItem
                     inputtype="date"
                     inputplaceholder="Ngày Sinh*"
@@ -58,7 +66,9 @@ const SignUp = () => {
                 </Col>
 
                 <Col md={12} lg={6} className="pr-2">
-                  <h6 style={{ textAlign: ' left', fontWeight: 'bold' }}>Giới Tính</h6>
+                  <h6 style={{ textAlign: ' left', fontWeight: 'bold' }}>
+                    Giới Tính
+                  </h6>
                   <Input type="select" name="select">
                     <option>Nam</option>
                     <option>Nữ</option>
@@ -66,16 +76,26 @@ const SignUp = () => {
                 </Col>
 
                 <Col md={12} lg={6} className="p-0">
-                  <h6 style={{ textAlign: ' left', fontWeight: 'bold' }}>Số Điện Thoại</h6>
+                  <h6 style={{ textAlign: ' left', fontWeight: 'bold' }}>
+                    Số Điện Thoại
+                  </h6>
                   <RegistrationItem inputtype="tel" icon={faPhone} />
                 </Col>
                 <Col md={12} lg={6} className="pr-2">
-                  <h6 style={{ textAlign: ' left', fontWeight: 'bold' }}>Địa Chỉ Thường Trú</h6>
+                  <h6 style={{ textAlign: ' left', fontWeight: 'bold' }}>
+                    Địa Chỉ Thường Trú
+                  </h6>
                   <RegistrationItem inputtype="text" icon={faPhone} />
                 </Col>
                 <Col md={12} lg={6} className="p-0">
-                  <h6 style={{ textAlign: ' left', fontWeight: 'bold' }}>Địa Chỉ Tạm Trú</h6>
-                  <RegistrationItem inputtype="text" icon={faPhone} inputplaceholder="Nếu giống địa chỉ thường trú vui lòng bỏ qua trường này"/>
+                  <h6 style={{ textAlign: ' left', fontWeight: 'bold' }}>
+                    Địa Chỉ Tạm Trú
+                  </h6>
+                  <RegistrationItem
+                    inputtype="text"
+                    icon={faPhone}
+                    inputplaceholder="Nếu giống địa chỉ thường trú vui lòng bỏ qua trường này"
+                  />
                 </Col>
               </Row>
 
